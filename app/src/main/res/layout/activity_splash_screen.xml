@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".splashScreen">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fruit Store"
+        android:textAllCaps="false"
+        android:textSize="36sp"
+        android:textColor="#fff"
+        android:fontFamily="@font/neuton_bold"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        />
+<ImageView
+    android:layout_width = "250dp"
+    android:layout_height="wrap_content"
+    android:src="@drawable/imgfff"
+    android:layout_centerInParent="true"/>
+
+</RelativeLayout>
